@@ -6,3 +6,5 @@ The goal of this project is to identify security vulnerabilities on a website an
 - PHP web shells (for lab environments)
 - Weevely (controlled testing only)
 - Manual vulnerability validation
+
+⚠️ All content is intended for educational purposes and authorized testing environments only.
