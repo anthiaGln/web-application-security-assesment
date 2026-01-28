@@ -1,8 +1,8 @@
-# Web Application Security Assessment (Lab-Based Project)
+# Web Application Security Assessment 
 
-This repository contains a lab-based web application security assessment focused on identifying, understanding, and mitigating common web application vulnerabilities.
+This project is about a lab-based web application security assessment focused on identifying, understanding, and mitigating common web application vulnerabilities.
 
-The project was conducted in a **controlled and intentionally vulnerable environment** for educational and learning purposes.
+The project was conducted in a controlled and intentionally vulnerable environment for educational and learning purposes.
 
 ---
 
