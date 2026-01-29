@@ -29,3 +29,15 @@ An insecure file upload mechanism may allow an attacker to:
 - Achieve remote command execution
 - Establish reverse connections to external systems
 - Gain full control over the affected application or server
+
+---
+
+## Mitigation
+
+To prevent file upload vulnerabilities, the following security measures are recommended:
+- Restrict allowed file types using server-side validation
+- Validate file content and MIME type, not only file extensions
+- Disallow upload of executable files
+- Store uploaded files outside the web root so that they will not be executed through the URL.
+
+The most effective way to secure file upload functionality is to validate the real file type on the server side and ensure it matches the expected format, such as an image or media file. File extensions alone should not be trusted as they can be easily bypassed. 
