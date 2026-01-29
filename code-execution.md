@@ -26,4 +26,13 @@ To reduce the risk of code execution vulnerabilities the following security meas
 
 - Avoid the use of functions that allow execution of operating system commands.
 - Users should not be allowed to execute any type of code on the server.
+- If execution-related functionality is required, user input must be strictly validated before execution.
+- Filter user input to prevent command injection.
+- Restrict input format using validation rules (e.g. allow only IP address format).
+- Prevent the use of special characters such as semicolons or spaces that may allow command chaining.
+
+---
+
+The most effective way to prevent code execution vulnerabilities is to avoid using functions that execute operating system commands altogether. If such functionality is absolutely necessary, strict input validation must be applied to ensure only expected and safe input is processed.  
+
 
