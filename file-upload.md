@@ -9,6 +9,7 @@ File upload vulnerabilities occur when a web application does not properly valid
 ## Validation (Lab-Based)
 
 The vulnerability was validated in Kali Linux using DVWA hosted on Metasploitable.
+
 Steps to validate vulnerability:
 
 1. Reduced the application security level to **Low** to demonstrate the impact of insufficient validation.
