@@ -11,7 +11,7 @@ File upload vulnerabilities occur when a web application does not properly valid
 The vulnerability was validated in Kali Linux using DVWA hosted on Metasploitable.
 Steps to validate vulnerability:
 
-1.Reduced the application security level to **Low** to demonstrate the impact of insufficient validation.
+1. Reduced the application security level to **Low** to demonstrate the impact of insufficient validation.
 2. Accessed the file upload functionality in DVWA.
 3. Uploaded a legitimate image file to confirm normal application behavior.
 4. Identified the server-side location where uploaded files were stored.
