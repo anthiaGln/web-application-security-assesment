@@ -21,7 +21,7 @@ A Local File Inclusion vulnerability can lead to unauthorized access to sensitiv
 
  ---
 
- ##Mitigation
+ ## Mitigation
 
  To prevent Local File Inclusion vulnerabilities, the following security measures are recommended:
  
