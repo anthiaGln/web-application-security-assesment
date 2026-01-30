@@ -14,7 +14,7 @@ A file inclusion vulnerability was identified through a URL parameter used by th
 
 ## Impact
 
-A Local File Inclusion vulnerability can lead to unauthorized access to sensitive files stored on the server. More specifically anyone can :
+A Local File Inclusion vulnerability can lead to unauthorized access to sensitive files stored on the server. More specifically unauthorized users can :
 - Read system files
 - Access user account information
 - Disclose sensitive data
