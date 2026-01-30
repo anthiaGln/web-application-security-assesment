@@ -26,3 +26,13 @@ A Local File Inclusion vulnerability can lead to unauthorized access to sensitiv
  To prevent Local File Inclusion vulnerabilities, the following security measures are recommended:
  
 - Avoid dynamic file inclusion based on user-controlled input.
+- Do not include files using values obtained directly from GET or POST parameters.
+- Use static file inclusion where possible.
+- Restrict file access to predefined and trusted directories only.
+- Prevent access to files outside the intended web directory.
+
+---
+
+## Best Practice Summary
+
+The most effective way to prevent Local File Inclusion vulnerabilities is to avoid dynamic file inclusion. Using static, hard-coded file inclusion ensures that users cannot influence which files are loaded by the application so that reduces the risk of sensitive data disclosure.
