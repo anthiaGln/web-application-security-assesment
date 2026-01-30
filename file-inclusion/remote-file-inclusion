@@ -1,1 +1,5 @@
+# Remote File Inclusion (RFI)
 
+## Overview
+
+Remote File Inclusion (RFI) occurs when a web application allows files to be included from external servers. This vulnerability is dangerous because it can lead to execution of remote code on the target system.
