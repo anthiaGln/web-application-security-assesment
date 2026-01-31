@@ -4,3 +4,23 @@
 
 Remote File Inclusion (RFI) occurs when a web application allows files to be included from external servers. 
 This vulnerability is dangerous because it can lead to execution of remote code on the target system.
+
+---
+
+## Validation
+
+Remote File Inclusion was enabled by modifying PHP configuration settings on the target system. A PHP file containing operating system command executions was created and stored remotely as a `.txt` file.  
+By including this file, through a vulnerable parameter, the code was executed on the target server. This resulted in a reverse connection being established, demonstrating that remote code execution was possible through file inclusion.
+
+
+---
+
+## Impact
+
+---
+
+## Mitigation
+
+---
+
+## Best Practice Summary
