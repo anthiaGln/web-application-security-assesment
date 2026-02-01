@@ -19,10 +19,31 @@ demonstrating that remote code execution was possible through file inclusion.
 
 ## Impact
 
+Remote File Inclusion vulnerabilities pose a critical security risk due to their potential impact on the system.
+
+An attacker may be able to:
+
+- Execute code hosted on external servers
+- Establish reverse connections to external systems
+- Gain full control over the affected application or server
+
+In the lab scenario, remote file inclusion resulted in remote code execution and system compromise highlighting the severity of this vulnerability.
+
 ---
 
 ## Mitigation
 
+To prevent Remote File Inclusion vulnerabilities, the following security measures are recommended:
+
+- Disable `allow_url_fopen` and `allow_url_include` in PHP configuration.
+- Do not allow inclusion of files from external or remote sources.
+- Avoid dynamic file inclusion using user-supplied input.
+- Use static, hard-coded file inclusion instead of dynamic inclusion.
+- Ensure that only local and trusted files can be included by the application.
+
 ---
 
 ## Best Practice Summary
+
+The most effective way to prevent Remote File Inclusion vulnerabilities is to disable remote file inclusion functionality and avoid dynamic inclusion mechanisms.  
+Using static file inclusion and secure server configuration ensures that external files cannot be executed on the server.
