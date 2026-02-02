@@ -33,12 +33,3 @@ The main goals of this project are:
 - **Platform:** Metasploitable  
 - **Environment:** Kali Linux  
 
----
-
-## Repository Structure
-
-```text
-file-upload/
-code-execution/
-file-inclusion/
-environment/
